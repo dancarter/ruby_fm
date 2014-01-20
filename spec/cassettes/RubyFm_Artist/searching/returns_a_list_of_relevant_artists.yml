@@ -1,0 +1,59 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://ws.audioscrobbler.com/2.0/?api_key=<LASTFM API KEY>&artist=65daysofstatic&format=json&method=artist.search
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache/2.2.22 (Unix)
+      X-Web-Node:
+      - www202
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Allow-Methods:
+      - POST, GET, OPTIONS
+      Access-Control-Max-Age:
+      - '86400'
+      Cache-Control:
+      - max-age=86400
+      Expires:
+      - Tue, 21 Jan 2014 21:35:39 GMT
+      Content-Type:
+      - application/json; charset=utf-8;
+      Content-Length:
+      - '959'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Mon, 20 Jan 2014 21:55:56 GMT
+      X-Varnish:
+      - 61520390 61379634
+      Age:
+      - '492'
+      Via:
+      - 1.1 varnish
+      Connection:
+      - close
+      X-Cms:
+      - '1'
+    body:
+      encoding: UTF-8
+      string: |
+        {"results":{"opensearch:Query":{"#text":"","role":"request","searchTerms":"65daysofstatic","startPage":"1"},"opensearch:totalResults":"68","opensearch:startIndex":"0","opensearch:itemsPerPage":"30","artistmatches":{"artist":[{"name":"65daysofstatic","listeners":"436704","mbid":"0cd12ab3-9628-45ef-a97b-ff18624f14a0","url":"http:\/\/www.last.fm\/music\/65daysofstatic","streamable":"1","image":[{"#text":"http:\/\/userserve-ak.last.fm\/serve\/34\/46404977.jpg","size":"small"},{"#text":"http:\/\/userserve-ak.last.fm\/serve\/64\/46404977.jpg","size":"medium"},{"#text":"http:\/\/userserve-ak.last.fm\/serve\/126\/46404977.jpg","size":"large"},{"#text":"http:\/\/userserve-ak.last.fm\/serve\/252\/46404977.jpg","size":"extralarge"},{"#text":"http:\/\/userserve-ak.last.fm\/serve\/_\/46404977\/65daysofstatic+4312266316_916a42bda8.jpg","size":"mega"}]},{"name":"\u259165daysofstatic\u2591","listeners":"991","mbid":"","url":"http:\/\/www.last.fm\/music\/%E2%96%9165daysofstatic%E2%96%91","streamable":"0","image":[{"#text":"","size":"small"},{"#text":"","size":"medium"},{"#text":"","size":"large"},{"#text":"","size":"extralarge"},{"#text":"","size":"mega"}]},{"name":"65daysofstatic, 65daysofstatic","listeners":"5","mbid":"","url":"http:\/\/www.last.fm\/music\/65daysofstatic,+65daysofstatic","streamable":"0","image":[{"#text":"","size":"small"},{"#text":"","size":"medium"},{"#text":"","size":"large"},{"#text":"","size":"extralarge"},{"#text":"","size":"mega"}]},{"name":"|65daysofstatic","listeners":"88","mbid":"","url":"http:\/\/www.last.fm\/music\/%7C65daysofstatic","streamable":"0","image":[{"#text":"","size":"small"},{"#text":"","size":"medium"},{"#text":"","size":"large"},{"#text":"","size":"extralarge"},{"#text":"","size":"mega"}]},{"name":"[65daysofstatic","listeners":"11","mbid":"","url":"http:\/\/www.last.fm\/music\/%5B65daysofstatic","streamable":"0","image":[{"#text":"","size":"small"},{"#text":"","size":"medium"},{"#text":"","size":"large"},{"#text":"","size":"extralarge"},{"#text":"","size":"mega"}]},{"name":"[65daysofstatic]","listeners":"7","mbid":"","url":"http:\/\/www.last.fm\/music\/%5B65daysofstatic%5D","streamable":"0","image":[{"#text":"","size":"small"},{"#text":"","size":"medium"},{"#text":"","size":"large"},{"#text":"","size":"extralarge"},{"#text":"","size":"mega"}]},{"name":"\u25ba65daysofstatic","listeners":"6","mbid":"","url":"http:\/\/www.last.fm\/music\/%E2%96%BA65daysofstatic","streamable":"0","image":[{"#text":"","size":"small"},{"#text":"","size":"medium"},{"#text":"","size":"large"},{"#text":"","size":"extralarge"},{"#text":"","size":"mega"}]},{"name":"65daysofstatic.","listeners":"6","mbid":"","url":"http:\/\/www.last.fm\/music\/65daysofstatic.","streamable":"0","image":[{"#text":"","size":"small"},{"#text":"","size":"medium"},{"#text":"","size":"large"},{"#text":"","size":"extralarge"},{"#text":"","size":"mega"}]},{"name":"\u266b65daysofstatic","listeners":"5","mbid":"","url":"http:\/\/www.last.fm\/music\/%E2%99%AB65daysofstatic","streamable":"0","image":[{"#text":"","size":"small"},{"#text":"","size":"medium"},{"#text":"","size":"large"},{"#text":"","size":"extralarge"},{"#text":"","size":"mega"}]},{"name":"65daysofstatic\u0700","listeners":"5","mbid":"","url":"http:\/\/www.last.fm\/music\/65daysofstatic%DC%80","streamable":"0","image":[{"#text":"","size":"small"},{"#text":"","size":"medium"},{"#text":"","size":"large"},{"#text":"","size":"extralarge"},{"#text":"","size":"mega"}]},{"name":"65*daysofstatic","listeners":"4","mbid":"","url":"http:\/\/www.last.fm\/music\/65*daysofstatic","streamable":"0","image":[{"#text":"","size":"small"},{"#text":"","size":"medium"},{"#text":"","size":"large"},{"#text":"","size":"extralarge"},{"#text":"","size":"mega"}]},{"name":"\u260565daysofstatic\u2605","listeners":"4","mbid":"","url":"http:\/\/www.last.fm\/music\/%E2%98%8565daysofstatic%E2%98%85","streamable":"0","image":[{"#text":"","size":"small"},{"#text":"","size":"medium"},{"#text":"","size":"large"},{"#text":"","size":"extralarge"},{"#text":"","size":"mega"}]},{"name":"65daysofstatic*","listeners":"3","mbid":"","url":"http:\/\/www.last.fm\/music\/65daysofstatic*","streamable":"0","image":[{"#text":"","size":"small"},{"#text":"","size":"medium"},{"#text":"","size":"large"},{"#text":"","size":"extralarge"},{"#text":"","size":"mega"}]},{"name":".65daysofstatic","listeners":"3","mbid":"","url":"http:\/\/www.last.fm\/music\/.65daysofstatic","streamable":"0","image":[{"#text":"","size":"small"},{"#text":"","size":"medium"},{"#text":"","size":"large"},{"#text":"","size":"extralarge"},{"#text":"","size":"mega"}]},{"name":"65  daysofstatic","listeners":"3","mbid":"","url":"http:\/\/www.last.fm\/music\/65++daysofstatic","streamable":"0","image":[{"#text":"","size":"small"},{"#text":"","size":"medium"},{"#text":"","size":"large"},{"#text":"","size":"extralarge"},{"#text":"","size":"mega"}]},{"name":"\u25cf65daysofstatic","listeners":"3","mbid":"","url":"http:\/\/www.last.fm\/music\/%E2%97%8F65daysofstatic","streamable":"0","image":[{"#text":"","size":"small"},{"#text":"","size":"medium"},{"#text":"","size":"large"},{"#text":"","size":"extralarge"},{"#text":"","size":"mega"}]},{"name":"65daysofstatic?","listeners":"3","mbid":"","url":"http:\/\/www.last.fm\/music\/65daysofstatic%3F","streamable":"0","image":[{"#text":"","size":"small"},{"#text":"","size":"medium"},{"#text":"","size":"large"},{"#text":"","size":"extralarge"},{"#text":"","size":"mega"}]},{"name":"65daysofstatic, Robert Smith","listeners":"68","mbid":"","url":"http:\/\/www.last.fm\/music\/+noredirect\/65daysofstatic,+Robert+Smith","streamable":"1","image":[{"#text":"","size":"small"},{"#text":"","size":"medium"},{"#text":"","size":"large"},{"#text":"","size":"extralarge"},{"#text":"","size":"mega"}]},{"name":"15. 65daysofstatic","listeners":"22","mbid":"","url":"http:\/\/www.last.fm\/music\/15.+65daysofstatic","streamable":"0","image":[{"#text":"","size":"small"},{"#text":"","size":"medium"},{"#text":"","size":"large"},{"#text":"","size":"extralarge"},{"#text":"","size":"mega"}]},{"name":"65daysofstatic\/Robert Smith","listeners":"22","mbid":"","url":"http:\/\/www.last.fm\/music\/65daysofstatic%2FRobert+Smith","streamable":"0","image":[{"#text":"","size":"small"},{"#text":"","size":"medium"},{"#text":"","size":"large"},{"#text":"","size":"extralarge"},{"#text":"","size":"mega"}]},{"name":"65daysofstatic [vkhp.net]","listeners":"20","mbid":"","url":"http:\/\/www.last.fm\/music\/65daysofstatic+%5Bvkhp.net%5D","streamable":"0","image":[{"#text":"","size":"small"},{"#text":"","size":"medium"},{"#text":"","size":"large"},{"#text":"","size":"extralarge"},{"#text":"","size":"mega"}]},{"name":"65daysofstatic & Cecily","listeners":"10","mbid":"","url":"http:\/\/www.last.fm\/music\/65daysofstatic+&+Cecily","streamable":"1","image":[{"#text":"http:\/\/userserve-ak.last.fm\/serve\/34\/10459323.jpg","size":"small"},{"#text":"http:\/\/userserve-ak.last.fm\/serve\/64\/10459323.jpg","size":"medium"},{"#text":"http:\/\/userserve-ak.last.fm\/serve\/126\/10459323.jpg","size":"large"},{"#text":"http:\/\/userserve-ak.last.fm\/serve\/252\/10459323.jpg","size":"extralarge"},{"#text":"http:\/\/userserve-ak.last.fm\/serve\/500\/10459323\/65daysofstatic++Cecily+Ronjahochlad.jpg","size":"mega"}]},{"name":"65daysofstatic Vs. Kanye","listeners":"7","mbid":"","url":"http:\/\/www.last.fm\/music\/65daysofstatic+Vs.+Kanye","streamable":"0","image":[{"#text":"","size":"small"},{"#text":"","size":"medium"},{"#text":"","size":"large"},{"#text":"","size":"extralarge"},{"#text":"","size":"mega"}]},{"name":"\u266b 65daysofstatic \u266b","listeners":"6","mbid":"","url":"http:\/\/www.last.fm\/music\/%E2%99%AB+65daysofstatic+%E2%99%AB","streamable":"0","image":[{"#text":"","size":"small"},{"#text":"","size":"medium"},{"#text":"","size":"large"},{"#text":"","size":"extralarge"},{"#text":"","size":"mega"}]},{"name":"\u266b 65daysofstatic","listeners":"5","mbid":"","url":"http:\/\/www.last.fm\/music\/%E2%99%AB+65daysofstatic","streamable":"0","image":[{"#text":"","size":"small"},{"#text":"","size":"medium"},{"#text":"","size":"large"},{"#text":"","size":"extralarge"},{"#text":"","size":"mega"}]},{"name":"\u23b7\u239b -65daysofstatic","listeners":"5","mbid":"","url":"http:\/\/www.last.fm\/music\/%E2%8E%B7%E2%8E%9B+-65daysofstatic","streamable":"0","image":[{"#text":"","size":"small"},{"#text":"","size":"medium"},{"#text":"","size":"large"},{"#text":"","size":"extralarge"},{"#text":"","size":"mega"}]},{"name":"\u2716 65daysofstatic","listeners":"5","mbid":"","url":"http:\/\/www.last.fm\/music\/%E2%9C%96+65daysofstatic","streamable":"0","image":[{"#text":"","size":"small"},{"#text":"","size":"medium"},{"#text":"","size":"large"},{"#text":"","size":"extralarge"},{"#text":"","size":"mega"}]},{"name":"a65daysofstatic","listeners":"5","mbid":"","url":"http:\/\/www.last.fm\/music\/a65daysofstatic","streamable":"0","image":[{"#text":"","size":"small"},{"#text":"","size":"medium"},{"#text":"","size":"large"},{"#text":"","size":"extralarge"},{"#text":"","size":"mega"}]},{"name":"65daysofstatic Vs Everyone","listeners":"5","mbid":"","url":"http:\/\/www.last.fm\/music\/65daysofstatic+Vs+Everyone","streamable":"0","image":[{"#text":"","size":"small"},{"#text":"","size":"medium"},{"#text":"","size":"large"},{"#text":"","size":"extralarge"},{"#text":"","size":"mega"}]},{"name":"05. 65daysofstatic","listeners":"4","mbid":"","url":"http:\/\/www.last.fm\/music\/05.+65daysofstatic","streamable":"0","image":[{"#text":"","size":"small"},{"#text":"","size":"medium"},{"#text":"","size":"large"},{"#text":"","size":"extralarge"},{"#text":"","size":"mega"}]}]},"@attr":{"for":"65daysofstatic"}}}
+    http_version: 
+  recorded_at: Mon, 20 Jan 2014 21:43:52 GMT
+recorded_with: VCR 2.8.0

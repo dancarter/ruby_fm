@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe RubyFm::Artist do
+describe RubyFm::Artist, :vcr do
   context 'searching' do
     it 'returns a list of relevant artists' do
       artist_name = '65daysofstatic'

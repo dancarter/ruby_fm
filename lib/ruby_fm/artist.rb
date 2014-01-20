@@ -1,6 +1,5 @@
 require 'faraday'
 require 'json'
-require 'pry'
 
 module RubyFm
   class Artist
@@ -27,7 +26,8 @@ module RubyFm
         })
         parsed_results = JSON.parse(res.body)
         if parsed_results['results'] && parsed_results['results']['artistmatches']
-          parsed_results['results']['artistmatches']['artist'].map do |artist_attributes|
+          artist_results = [parsed_results['results']['artistmatches']['artist']].flatten
+          artist_results.map do |artist_attributes|
             new(artist_attributes)
           end
         else
