@@ -20,7 +20,11 @@ Or install it yourself as:
 
 `artist = LastRubyFm::Artist.search('65daysofstatic').first
 artist.name # '65daysofstatic'
-artist.image # ''
+artist.images # ["http://userserve-ak.last.fm/serve/34/46404977.jpg",
+                "http://userserve-ak.last.fm/serve/64/46404977.jpg",
+                "http://userserve-ak.last.fm/serve/126/46404977.jpg",
+                "http://userserve-ak.last.fm/serve/252/46404977.jpg",
+                "http://userserve-ak.last.fm/serve/_/46404977/65daysofstatic+4312266316_916a42bda8.jpg"]
 
 album = LastRubyFm::Album.search('Robbers & Cowards')[1]
 album.artist  # 'Cold War Kids'

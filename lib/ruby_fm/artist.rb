@@ -1,12 +1,20 @@
 require 'faraday'
 require 'json'
+require 'pry'
 
 module RubyFm
   class Artist
-    attr_reader :name
+    attr_reader :name, :listeners, :mbid, :streamable, :url, :images
 
     def initialize(attributes)
       @name = attributes['name']
+      @listeners = attributes['listeners']
+      @mbid = attributes['mbid']
+      @streamable = attributes['streamable']
+      @url = attributes['url']
+      @images = attributes['image'].map do |image|
+        image['#text']
+      end
     end
 
     class << self
