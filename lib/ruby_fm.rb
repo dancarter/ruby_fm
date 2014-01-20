@@ -1,5 +1,12 @@
 require "ruby_fm/version"
+require "ruby_fm/artist"
 
 module RubyFm
-  # Your code goes here...
+  def self.api_key=(key)
+    @api_key = key
+  end
+
+  def self.api_key
+    @api_key
+  end
 end
