@@ -1,24 +1,30 @@
 # RubyFm
 
-TODO: Write a gem description
+Wrapper for using the Last FM API
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'ruby_fm'
+`gem 'ruby_fm'`
 
 And then execute:
 
-    $ bundle
+`$ bundle`
 
 Or install it yourself as:
 
-    $ gem install ruby_fm
+`$ gem install ruby_fm`
 
 ## Usage
 
-TODO: Write usage instructions here
+`artist = LastRubyFm::Artist.search('65daysofstatic').first
+artist.name # '65daysofstatic'
+artist.image # ''
+
+album = LastRubyFm::Album.search('Robbers & Cowards')[1]
+album.artist  # 'Cold War Kids'
+album.tracks # retrieves a list of LastRubyFm::Track objects for the given album`
 
 ## Contributing
 
