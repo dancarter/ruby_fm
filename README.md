@@ -29,6 +29,9 @@ artist.images # ["http://userserve-ak.last.fm/serve/34/46404977.jpg",
 album = LastRubyFm::Album.search('Robbers & Cowards')[0]
 album.artist  # 'Cold War Kids'
 album.tracks # retrieves a list of LastRubyFm::Track objects for the given album
+
+track = LastRubyFm::Track.search('Saint John')[0]
+track.artist  # 'Cold War Kids'
 ```
 
 ## Contributing
