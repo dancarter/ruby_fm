@@ -22,7 +22,7 @@ http_interactions:
       Server:
       - Apache/2.2.22 (Unix)
       X-Web-Node:
-      - www232
+      - www207
       Access-Control-Allow-Origin:
       - '*'
       Access-Control-Allow-Methods:
@@ -32,15 +32,19 @@ http_interactions:
       Cache-Control:
       - max-age=86400
       Expires:
-      - Tue, 21 Jan 2014 23:02:51 GMT
+      - Tue, 21 Jan 2014 21:55:48 GMT
       Content-Type:
       - application/json; charset=utf-8;
+      Content-Length:
+      - '387'
+      Accept-Ranges:
+      - bytes
       Date:
-      - Mon, 20 Jan 2014 23:02:51 GMT
+      - Tue, 21 Jan 2014 01:45:35 GMT
       X-Varnish:
-      - '1812768600'
+      - 1990742918 1987107262
       Age:
-      - '0'
+      - '13788'
       Via:
       - 1.1 varnish
       Connection:
@@ -48,13 +52,13 @@ http_interactions:
       X-Cms:
       - '1'
       X-Varnish-Host:
-      - varnish3
+      - varnish4
     body:
       encoding: UTF-8
       string: |
         {"results":{"opensearch:Query":{"#text":"","role":"request","searchTerms":"Robbers & Cowards","startPage":"1"},"opensearch:totalResults":"1","opensearch:startIndex":"0","opensearch:itemsPerPage":"50","albummatches":{"album":{"name":"Robbers & Cowards","artist":"Cold War Kids","id":"3251702","url":"http:\/\/www.last.fm\/music\/Cold+War+Kids\/Robbers+&+Cowards","image":[{"#text":"http:\/\/userserve-ak.last.fm\/serve\/34s\/9197957.jpg","size":"small"},{"#text":"http:\/\/userserve-ak.last.fm\/serve\/64s\/9197957.jpg","size":"medium"},{"#text":"http:\/\/userserve-ak.last.fm\/serve\/126\/9197957.jpg","size":"large"},{"#text":"http:\/\/userserve-ak.last.fm\/serve\/300x300\/9197957.jpg","size":"extralarge"}],"streamable":"1","mbid":"1cd89dd6-158f-43c8-8a36-70546defb4a9"}},"@attr":{"for":"Robbers & Cowards"}}}
     http_version: 
-  recorded_at: Mon, 20 Jan 2014 23:02:51 GMT
+  recorded_at: Tue, 21 Jan 2014 01:45:35 GMT
 - request:
     method: get
     uri: http://ws.audioscrobbler.com/2.0/?album=Robbers%20%26%20Cowards&api_key=<LASTFM
@@ -75,11 +79,11 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 20 Jan 2014 23:02:51 GMT
+      - Tue, 21 Jan 2014 01:45:36 GMT
       Server:
       - Apache/2.2.22 (Unix)
       X-Web-Node:
-      - www239
+      - www171
       Access-Control-Allow-Origin:
       - '*'
       Access-Control-Allow-Methods:
@@ -89,7 +93,7 @@ http_interactions:
       Cache-Control:
       - max-age=86400
       Expires:
-      - Tue, 21 Jan 2014 23:02:51 GMT
+      - Wed, 22 Jan 2014 01:45:36 GMT
       Vary:
       - Accept-Encoding
       Content-Length:
@@ -103,5 +107,5 @@ http_interactions:
       string: |
         {"album":{"name":"Robbers & Cowards","artist":"Cold War Kids","id":"3251702","mbid":"1cd89dd6-158f-43c8-8a36-70546defb4a9","url":"http:\/\/www.last.fm\/music\/Cold+War+Kids\/Robbers+&+Cowards","releasedate":"    11 Nov 2008, 00:00","image":[{"#text":"http:\/\/userserve-ak.last.fm\/serve\/34s\/9197957.jpg","size":"small"},{"#text":"http:\/\/userserve-ak.last.fm\/serve\/64s\/9197957.jpg","size":"medium"},{"#text":"http:\/\/userserve-ak.last.fm\/serve\/174s\/9197957.jpg","size":"large"},{"#text":"http:\/\/userserve-ak.last.fm\/serve\/300x300\/9197957.jpg","size":"extralarge"},{"#text":"http:\/\/userserve-ak.last.fm\/serve\/_\/9197957\/Robbers++Cowards+Cold+War+Kids++Robbers++Coward.jpg","size":"mega"}],"listeners":"333892","playcount":"7387537","tracks":{"track":[{"name":"We Used to Vacation","duration":"241","mbid":"82b38cde-d4c0-4d41-b4eb-d230287c8784","url":"http:\/\/www.last.fm\/music\/Cold+War+Kids\/_\/We+Used+to+Vacation","streamable":{"#text":"1","fulltrack":"0"},"artist":{"name":"Cold War Kids","mbid":"0741b30d-e15b-4a8c-b2e5-8834a03d6116","url":"http:\/\/www.last.fm\/music\/Cold+War+Kids"},"@attr":{"rank":"1"}},{"name":"Hang Me Up to Dry","duration":"216","mbid":"0828547a-fea2-4cbb-97d8-c2bf35874d80","url":"http:\/\/www.last.fm\/music\/Cold+War+Kids\/_\/Hang+Me+Up+to+Dry","streamable":{"#text":"1","fulltrack":"0"},"artist":{"name":"Cold War Kids","mbid":"0741b30d-e15b-4a8c-b2e5-8834a03d6116","url":"http:\/\/www.last.fm\/music\/Cold+War+Kids"},"@attr":{"rank":"2"}},{"name":"Tell Me in the Morning","duration":"217","mbid":"1280ef5b-d75a-43ce-a9bb-da6fff5deaf5","url":"http:\/\/www.last.fm\/music\/Cold+War+Kids\/_\/Tell+Me+in+the+Morning","streamable":{"#text":"1","fulltrack":"0"},"artist":{"name":"Cold War Kids","mbid":"0741b30d-e15b-4a8c-b2e5-8834a03d6116","url":"http:\/\/www.last.fm\/music\/Cold+War+Kids"},"@attr":{"rank":"3"}},{"name":"Hair Down","duration":"220","mbid":"08cb4c8b-652a-4e77-a576-603dda422dd5","url":"http:\/\/www.last.fm\/music\/Cold+War+Kids\/_\/Hair+Down","streamable":{"#text":"1","fulltrack":"0"},"artist":{"name":"Cold War Kids","mbid":"0741b30d-e15b-4a8c-b2e5-8834a03d6116","url":"http:\/\/www.last.fm\/music\/Cold+War+Kids"},"@attr":{"rank":"4"}},{"name":"Passing the Hat","duration":"207","mbid":"081245cb-b177-49b1-b69f-e70c408d01f3","url":"http:\/\/www.last.fm\/music\/Cold+War+Kids\/_\/Passing+the+Hat","streamable":{"#text":"1","fulltrack":"0"},"artist":{"name":"Cold War Kids","mbid":"0741b30d-e15b-4a8c-b2e5-8834a03d6116","url":"http:\/\/www.last.fm\/music\/Cold+War+Kids"},"@attr":{"rank":"5"}},{"name":"Saint John","duration":"206","mbid":"b700456c-39d4-4ee8-bd5b-5a155139ce0d","url":"http:\/\/www.last.fm\/music\/Cold+War+Kids\/_\/Saint+John","streamable":{"#text":"1","fulltrack":"0"},"artist":{"name":"Cold War Kids","mbid":"0741b30d-e15b-4a8c-b2e5-8834a03d6116","url":"http:\/\/www.last.fm\/music\/Cold+War+Kids"},"@attr":{"rank":"6"}},{"name":"Robbers","duration":"218","mbid":"33cc1c64-e62f-4edd-ad2a-d1eca284a128","url":"http:\/\/www.last.fm\/music\/Cold+War+Kids\/_\/Robbers","streamable":{"#text":"1","fulltrack":"0"},"artist":{"name":"Cold War Kids","mbid":"0741b30d-e15b-4a8c-b2e5-8834a03d6116","url":"http:\/\/www.last.fm\/music\/Cold+War+Kids"},"@attr":{"rank":"7"}},{"name":"Hospital Beds","duration":"279","mbid":"1fffaed8-2e23-41a4-978f-a71090b445e2","url":"http:\/\/www.last.fm\/music\/Cold+War+Kids\/_\/Hospital+Beds","streamable":{"#text":"1","fulltrack":"0"},"artist":{"name":"Cold War Kids","mbid":"0741b30d-e15b-4a8c-b2e5-8834a03d6116","url":"http:\/\/www.last.fm\/music\/Cold+War+Kids"},"@attr":{"rank":"8"}},{"name":"Pregnant","duration":"237","mbid":"9385ef17-c56c-4bb1-b9de-8d76870801de","url":"http:\/\/www.last.fm\/music\/Cold+War+Kids\/_\/Pregnant","streamable":{"#text":"1","fulltrack":"0"},"artist":{"name":"Cold War Kids","mbid":"0741b30d-e15b-4a8c-b2e5-8834a03d6116","url":"http:\/\/www.last.fm\/music\/Cold+War+Kids"},"@attr":{"rank":"9"}},{"name":"Red Wine, Success!","duration":"154","mbid":"d73152c8-30c7-47d7-9cd9-3040437a5871","url":"http:\/\/www.last.fm\/music\/Cold+War+Kids\/_\/Red+Wine,+Success!","streamable":{"#text":"1","fulltrack":"0"},"artist":{"name":"Cold War Kids","mbid":"0741b30d-e15b-4a8c-b2e5-8834a03d6116","url":"http:\/\/www.last.fm\/music\/Cold+War+Kids"},"@attr":{"rank":"10"}},{"name":"God, Make Up Your Mind","duration":"286","mbid":"26720c8c-b1dc-4472-96d6-1a146be5d439","url":"http:\/\/www.last.fm\/music\/Cold+War+Kids\/_\/God,+Make+Up+Your+Mind","streamable":{"#text":"1","fulltrack":"0"},"artist":{"name":"Cold War Kids","mbid":"0741b30d-e15b-4a8c-b2e5-8834a03d6116","url":"http:\/\/www.last.fm\/music\/Cold+War+Kids"},"@attr":{"rank":"11"}},{"name":"Rubidoux","duration":"662","mbid":"fef06096-ca5f-496e-a976-a40c55fe63cf","url":"http:\/\/www.last.fm\/music\/Cold+War+Kids\/_\/Rubidoux","streamable":{"#text":"1","fulltrack":"0"},"artist":{"name":"Cold War Kids","mbid":"0741b30d-e15b-4a8c-b2e5-8834a03d6116","url":"http:\/\/www.last.fm\/music\/Cold+War+Kids"},"@attr":{"rank":"12"}}]},"toptags":{"tag":[{"name":"albums i own","url":"http:\/\/www.last.fm\/tag\/albums%20i%20own"},{"name":"2006","url":"http:\/\/www.last.fm\/tag\/2006"},{"name":"indie","url":"http:\/\/www.last.fm\/tag\/indie"},{"name":"indie rock","url":"http:\/\/www.last.fm\/tag\/indie%20rock"},{"name":"00s","url":"http:\/\/www.last.fm\/tag\/00s"}]}}}
     http_version: 
-  recorded_at: Mon, 20 Jan 2014 23:02:51 GMT
+  recorded_at: Tue, 21 Jan 2014 01:45:36 GMT
 recorded_with: VCR 2.8.0

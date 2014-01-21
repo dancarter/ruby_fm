@@ -33,7 +33,6 @@ module RubyFm
         else
           []
         end
-
       end
 
       protected
